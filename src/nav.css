@@ -1,0 +1,57 @@
+/* Apply a clean and modern font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.navbar {
+    background: linear-gradient(to left, #A3D8F4, #FFEB99); /* Light gradient background */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;  /* Adjust padding for better spacing */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;  /* Set font weight */
+    font-style: normal;
+}
+
+.nav-logo {
+    width: 80px;
+    height: auto;
+    margin-left: 40px;
+    transition: transform 0.3s ease;  /* Smooth transition effect for logo hover */
+}
+
+.nav-logo:hover {
+    transform: scale(1.05);  /* Slight zoom on hover */
+}
+
+.navbar > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  /* Center content horizontally */
+    text-align: center;  /* Center text inside div */
+}
+
+.nav-heading {
+    font-size: 28px;  /* Increase font size for better prominence */
+    font-weight: 700;  /* Bold for stronger emphasis */
+    color: #333;  /* Darker text color for contrast */
+    margin-bottom: 8px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);  /* Add text shadow for a bit of depth */
+}
+
+.nav-tagline {
+    font-size: 16px;  /* Increase font size slightly */
+    color: #333;  /* Darker text for better readability */
+    letter-spacing: 1px;  /* Add some letter spacing for readability */
+}
+
+p {
+    color: #333;  /* Darker color for better legibility */
+    margin-top: 12px;
+    text-align: center;
+    font-size: 20px;  /* Increase font size */
+    font-weight: 700;  /* Make the text bold */
+    line-height: 1.5;  /* Improve readability with a bit more line height */
+}
